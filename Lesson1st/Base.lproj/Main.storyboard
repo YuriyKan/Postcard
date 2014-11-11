@@ -9,7 +9,7 @@
             <objects>
                 <viewController id="ttF-3V-BJA" sceneMemberID="viewController">
                     <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SagradaFamilia.jpg" id="H8T-L1-bb5">
-                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
                     <navigationItem key="navigationItem" title="Barcelona" id="fbc-D2-mAA">
@@ -67,6 +67,15 @@
                                     <rect key="frame" x="16" y="84" width="334" height="100"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8cp-Dn-Kuk">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="17" y="191" width="226" height="71"/>
+                                </variation>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="axK-RL-0ey">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.65660926399999997" blue="0.23480871170000001" alpha="1" colorSpace="calibratedRGB"/>
@@ -89,6 +98,7 @@
                                 <exclude reference="aUI-27-zcK"/>
                                 <exclude reference="upx-Gk-hH9"/>
                                 <exclude reference="6le-JW-Yzv"/>
+                                <exclude reference="8cp-Dn-Kuk"/>
                                 <exclude reference="axK-RL-0ey"/>
                             </mask>
                         </variation>
@@ -98,6 +108,7 @@
                                 <include reference="aUI-27-zcK"/>
                                 <include reference="upx-Gk-hH9"/>
                                 <include reference="6le-JW-Yzv"/>
+                                <include reference="8cp-Dn-Kuk"/>
                                 <include reference="axK-RL-0ey"/>
                             </mask>
                         </variation>
@@ -107,6 +118,7 @@
                         <outlet property="enterNameTextField" destination="aUI-27-zcK" id="tLO-M6-i2l"/>
                         <outlet property="mailButton" destination="axK-RL-0ey" id="fS7-HW-E6L"/>
                         <outlet property="messageLabel" destination="6le-JW-Yzv" id="iWU-HO-Q4J"/>
+                        <outlet property="nameLabel" destination="8cp-Dn-Kuk" id="pb1-zp-L6U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
